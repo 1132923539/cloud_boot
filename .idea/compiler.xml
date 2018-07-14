@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud_boot (1) (net.canway.cloud)" />
+        <module name="cloud_client1" />
+        <module name="cloud_client_feign" />
+        <module name="cloud_client_ribbon2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud_boot (1) (net.canway.cloud)" target="1.8" />
+      <module name="cloud_boot (2) (net.canway.cloudParent)" target="1.8" />
+      <module name="cloud_client1" target="1.8" />
+      <module name="cloud_client1 (1)" target="1.8" />
+      <module name="cloud_client_aa" target="1.8" />
+      <module name="cloud_client_feign" target="1.8" />
+      <module name="cloud_client_ribbon" target="1.8" />
+      <module name="cloud_client_ribbon (1)" target="1.8" />
+      <module name="cloud_client_ribbon2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+server:
+  port: 8085
+spring:
+  application:
+    #配置主机名
+    name: cloud_client_feign
+eureka:
+  client:
+    serviceUrl:
+      #配置eureka服务发现主机的地址
+      defaultZone: http://localhost:8081/eureka/
+
+  instance:
+    #将主机以ip地址形式注册在eureka中
+    prefer-ip-address: true
+management:
+  endpoint:
+    health:
+      show-details: always
+

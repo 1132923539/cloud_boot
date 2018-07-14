@@ -1,0 +1,18 @@
+server:
+  port: 8081
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+spring:
+  http:
+    encoding:
+      charset: utf-8
+  #配置客户主机的访问地址
+  application:
+    name: enruke-server
+

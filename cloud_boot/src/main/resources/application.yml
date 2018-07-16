@@ -3,11 +3,21 @@ server:
 eureka:
   instance:
     hostname: localhost
+    #配置客户主机显示方式为ip号码
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
+    #配置客户机在Eureka里面显示的状态
+    environment: test
   client:
+  #设置关掉自我注册，就能够自动踢掉客户机
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+  #关闭自我保护模式
+    enable-self-preservation: false
+
+
 spring:
   http:
     encoding:
@@ -15,4 +25,5 @@ spring:
   #配置客户主机的访问地址
   application:
     name: enruke-server
+
 

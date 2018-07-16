@@ -9,6 +9,7 @@ eureka:
     serviceUrl:
       #配置eureka服务发现主机的地址
       defaultZone: http://localhost:8081/eureka/
+    registry-fetch-interval-seconds: 5
 
   instance:
     #将主机以ip地址形式注册在eureka中

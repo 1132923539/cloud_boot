@@ -24,6 +24,7 @@
         <module>cloud_client_ribbon2</module>
         <module>cloud_client1</module>
         <module>cloud_client_feign</module>
+        <module>cloud_eureka_HA</module>
     </modules>
 
     <properties>

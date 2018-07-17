@@ -25,15 +25,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-hystrix:1.4.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.0.0.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: com.netflix.hystrix:hystrix-serialization:1.5.12" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.module:jackson-module-afterburner:2.9.6" level="project" />
-    <orderEntry type="library" name="Maven: com.netflix.hystrix:hystrix-metrics-event-stream:1.5.12" level="project" />
-    <orderEntry type="library" name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.12" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-lang3:3.7" level="project" />
-    <orderEntry type="library" name="Maven: io.reactivex:rxjava-reactive-streams:1.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.reactivestreams:reactive-streams:1.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.0.3.RELEASE" level="project" />
@@ -85,15 +76,16 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-math:2.2" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.archaius:archaius-core:0.7.6" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:16.0" level="project" />
-    <orderEntry type="library" name="Maven: javax.ws.rs:jsr311-api:1.1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.ws.rs:jsr311-api:1.1.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.servo:servo-core:0.12.21" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.jersey:jersey-core:1.19.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.jersey:jersey-core:1.19.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.jersey:jersey-client:1.19.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.jersey.contribs:jersey-apache-client4:1.19.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents:httpclient:4.5.5" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.httpcomponents:httpcore:4.4.9" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: commons-codec:commons-codec:1.11" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.inject:guice:4.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.vlsi.compactmap:compactmap:1.2.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.andrewoma.dexx:dexx-collections:0.2" level="project" />
@@ -102,7 +94,7 @@
     <orderEntry type="library" name="Maven: com.netflix.eureka:eureka-core:1.9.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: javax.xml.stream:stax-api:1.0-2" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-archaius:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-netflix-ribbon:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-netflix-archaius:2.0.0.RELEASE" level="project" />
@@ -184,17 +176,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.ow2.asm:asm:5.0.4" level="project" />
     <orderEntry type="library" name="Maven: io.reactivex:rxjava-reactive-streams:1.2.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.reactivestreams:reactive-streams:1.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:2.0.0.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-server:2.0.0.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-freemarker:2.0.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.28" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.0.7.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.jersey:jersey-servlet:1.19.1" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.jersey:jersey-server:1.19.1" level="project" />
-    <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.6" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.6" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.woodstox:woodstox-core:5.0.3" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.45" level="project" />
   </component>
 </module>

@@ -6,26 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud_boot (1) (net.canway.cloud)" />
+        <module name="cloud_boot" />
         <module name="cloud_client1" />
         <module name="cloud_client_feign" />
         <module name="cloud_client_ribbon2" />
+        <module name="cloud_consul_boot" />
+        <module name="cloud_consul_feign" />
         <module name="cloud_eureka_HA" />
         <module name="cloud_hystrix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cloud_boot (1) (net.canway.cloud)" target="1.8" />
-      <module name="cloud_boot (2) (net.canway.cloudParent)" target="1.8" />
+      <module name="cloud_boot" target="1.8" />
       <module name="cloud_client1" target="1.8" />
-      <module name="cloud_client1 (1)" target="1.8" />
-      <module name="cloud_client_aa" target="1.8" />
       <module name="cloud_client_feign" target="1.8" />
-      <module name="cloud_client_ribbon" target="1.8" />
-      <module name="cloud_client_ribbon (1)" target="1.8" />
       <module name="cloud_client_ribbon2" target="1.8" />
+      <module name="cloud_consul_boot" target="1.8" />
+      <module name="cloud_consul_feign" target="1.8" />
       <module name="cloud_eureka_HA" target="1.8" />
       <module name="cloud_hystrix" target="1.8" />
+      <module name="cloud_parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

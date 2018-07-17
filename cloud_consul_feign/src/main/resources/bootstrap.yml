@@ -1,0 +1,16 @@
+#spring:
+#  application:
+#    #配置主机名
+#    name: cloud_consul_feign
+#  cloud:
+#    consul:
+#      host: localhost
+#      port: 8500
+#      discovery:
+#        healthCheckInterval: 15s
+#        instance-id: ${spring.application.name}
+#        service-name: ${spring.application.name}
+
+
+
+

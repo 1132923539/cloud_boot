@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: boot
+
+  cloud:
+      consul:
+        host: localhost
+        port: 8500
+        discovery:
+          healthCheckInterval: 15s
+          instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
+          service-name: ${spring.application.name}
+server:
+  port: 8081
+
+management:
+  endpoint:
+    health:
+      show-details: always

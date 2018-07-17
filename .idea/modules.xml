@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cloud_boot/cloud_boot (1) (net.canway.cloud).iml" filepath="$PROJECT_DIR$/cloud_boot/cloud_boot (1) (net.canway.cloud).iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud_boot (2) (net.canway.cloudParent).iml" filepath="$PROJECT_DIR$/cloud_boot (2) (net.canway.cloudParent).iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_boot/cloud_boot.iml" filepath="$PROJECT_DIR$/cloud_boot/cloud_boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud_client1/cloud_client1.iml" filepath="$PROJECT_DIR$/cloud_client1/cloud_client1.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud_client_feign/cloud_client_feign.iml" filepath="$PROJECT_DIR$/cloud_client_feign/cloud_client_feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud_client_ribbon2/cloud_client_ribbon2.iml" filepath="$PROJECT_DIR$/cloud_client_ribbon2/cloud_client_ribbon2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_consul_boot/cloud_consul_boot.iml" filepath="$PROJECT_DIR$/cloud_consul_boot/cloud_consul_boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_consul_feign/cloud_consul_feign.iml" filepath="$PROJECT_DIR$/cloud_consul_feign/cloud_consul_feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud_eureka_HA/cloud_eureka_HA.iml" filepath="$PROJECT_DIR$/cloud_eureka_HA/cloud_eureka_HA.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud_hystrix/cloud_hystrix.iml" filepath="$PROJECT_DIR$/cloud_hystrix/cloud_hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_parent.iml" filepath="$PROJECT_DIR$/cloud_parent.iml" />
     </modules>
   </component>
 </project>

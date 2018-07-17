@@ -6,6 +6,8 @@
     <file url="file://$PROJECT_DIR$/cloud_client1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_client_feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_client_ribbon2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_consul_boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_consul_feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_eureka_HA" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_hystrix" charset="UTF-8" />
   </component>

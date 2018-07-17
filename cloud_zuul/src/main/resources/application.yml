@@ -1,9 +1,9 @@
 server:
-  port: 8083
+  port: 8087
 spring:
   application:
     #配置主机名
-    name: cloud_hystrix
+    name: cloud_zuul
 eureka:
   client:
     serviceUrl:

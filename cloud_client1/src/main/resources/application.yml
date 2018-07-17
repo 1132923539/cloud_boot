@@ -18,3 +18,14 @@ eureka:
 #自定义配置
 user:
   userServicePath: http://localhost:8081/getUser
+
+
+
+#开启健康保护
+management:
+  endpoints:
+    health:
+      show-details: always
+    web:
+      exposure:
+        include: "*"

@@ -28,6 +28,7 @@
         <module>cloud_hystrix</module>
         <module>cloud_consul_boot</module>
         <module>cloud_consul_feign</module>
+        <module>cloud_zuul</module>
     </modules>
 
     <properties>

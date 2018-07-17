@@ -4,14 +4,9 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_boot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_client1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud_client2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud_client2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud_client2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud_client2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud_client_aa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_client_feign" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud_client_ribb" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud_client_ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_client_ribbon2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_eureka_HA" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_hystrix" charset="UTF-8" />
   </component>
 </project>

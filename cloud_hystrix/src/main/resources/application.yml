@@ -1,0 +1,30 @@
+server:
+  port: 8083
+spring:
+  application:
+    #配置主机名
+    name: cloud_client_ribbon2
+eureka:
+  client:
+    serviceUrl:
+      #配置eureka服务发现主机的地址
+      defaultZone: http://localhost:8081/eureka/
+    healthcheck:
+          enabled: true
+  instance:
+    #将主机以ip地址形式注册在eureka中
+    prefer-ip-address: true
+    statusPageUrl: https://${eureka.hostname}/info
+    healthCheckUrl: https://${eureka.hostname}/health
+    homePageUrl: https://${eureka.hostname}/
+
+management:
+  endpoint:
+    health:
+      show-details: always
+    info:
+      enabled: true
+    enabled-by-default: true
+    web:
+      exposure:
+        exclude: "*"

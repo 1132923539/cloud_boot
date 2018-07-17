@@ -10,6 +10,8 @@
         <module name="cloud_client1" />
         <module name="cloud_client_feign" />
         <module name="cloud_client_ribbon2" />
+        <module name="cloud_eureka_HA" />
+        <module name="cloud_hystrix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +24,8 @@
       <module name="cloud_client_ribbon" target="1.8" />
       <module name="cloud_client_ribbon (1)" target="1.8" />
       <module name="cloud_client_ribbon2" target="1.8" />
+      <module name="cloud_eureka_HA" target="1.8" />
+      <module name="cloud_hystrix" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

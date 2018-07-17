@@ -1,0 +1,42 @@
+#这部分是公用的配置
+spring:
+  application:
+    name: cloud_eureka_HA
+
+#使用 --- 隔开配置
+---
+server:
+  port: 8761
+#这里是给配置指定名称
+spring:
+  profiles: peer1
+#这里给一个Eureka同时配置服务发现与服务注册，peer1需要在host文件中配置
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    serviceUrl:
+      defaultZone: http://peer2:8762/eureka/,http://peer3:8763/eureka/
+---
+server:
+  port: 8762
+spring:
+  profiles: peer2
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/eureka/,http://peer3:8763/eureka/
+
+---
+server:
+  port: 8763
+spring:
+  profiles: peer3
+eureka:
+  instance:
+    hostname: peer3
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
